@@ -4,7 +4,7 @@ trigger:
 
 pool: Default
  
-
+name: news
 steps:
 - script: echo Hello, world1!
   displayName: 'Run a one-line script'
