@@ -13,4 +13,4 @@ stages:
 
     - job: BuildOnMac
       steps:
-      - script: "echo Stage 2"
+      - script: "echo Stage 12"
