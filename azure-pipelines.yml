@@ -9,7 +9,8 @@ stages:
     jobs:
     - job: BuildOnWindows
       steps:
-      - Build
+      - script: "echo Stage 1"
+
     - job: BuildOnMac
       steps:
-      - Build
+      - script: "echo Stage 2"
